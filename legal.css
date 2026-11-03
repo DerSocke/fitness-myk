@@ -1,0 +1,17 @@
+:root { --bg:#ffffff; --text:#1d2330; --muted:#5b6475; --line:#d9dde5; --link:#0b5cad; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#14171f; --text:#e8eaf0; --muted:#a3aabb; --line:#2c3240; --link:#7db4f0; }
+}
+html { background:var(--bg); }
+body { font-family: Georgia, "Times New Roman", serif; color:var(--text); background:var(--bg);
+       line-height:1.65; max-width:42rem; margin:0 auto; padding:2rem 1.25rem 4rem; }
+h1 { font-size:1.7rem; line-height:1.25; margin:0 0 .25rem; }
+h2 { font-size:1.15rem; margin:2rem 0 .5rem; padding-top:1rem; border-top:1px solid var(--line); }
+p, ul { margin:.5rem 0; }
+.stand { color:var(--muted); font-size:.95rem; }
+a { color:var(--link); }
+.top { display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap; }
+.lang { display:flex; gap:.25rem; font-family:"Segoe UI", Roboto, system-ui, Arial, sans-serif; font-size:.9rem; }
+.lang a { text-decoration:none; padding:.15rem .55rem; border-radius:999px; border:1px solid var(--line); }
+.lang a[aria-current] { background:var(--link); border-color:var(--link); color:var(--bg); }
+.note { color:var(--muted); font-size:.95rem; font-style:italic; }
