@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fitness Myk · Strength training with watch or phone</title>
-<meta name="description" content="Fitness Myk is your strength training log: on your Wear OS watch or right on your phone. Check off a set, the rest timer runs, plans and history always with you.">
+<meta name="description" content="Fitness Myk is your strength training log: on your Wear OS watch or right on your phone. Check off a set, the rest timer runs, plans, history and statistics always with you.">
 <link rel="icon" href="../img/icon.png">
 <link rel="stylesheet" href="../site.css">
 <link rel="alternate" hreflang="de" href="https://dersocke.github.io/fitness-myk/">
@@ -19,7 +19,7 @@
     <div>
       <div class="brand"><img src="../img/icon.png" alt=""><span>Fitness Myk</span></div>
       <h1>Strength training on your wrist. Or on your phone.</h1>
-      <p class="lead">Check off a set, the rest timer runs. With a Wear OS watch your phone stays in the locker, without a watch you train right on your phone. Your plans and history are always with you.</p>
+      <p class="lead">Check off a set, the rest timer runs. With a Wear OS watch your phone stays in the locker, without a watch you train right on your phone. Your plans, history and statistics are always with you.</p>
       <div class="buttons">
         <a class="btn btn-light" href="#features">See features</a>
         <a class="btn btn-ghost" href="https://www.youtube.com/watch?v=dd3W-QZV9yQ" target="_blank" rel="noopener">▶ Watch video</a>
@@ -51,7 +51,7 @@
 <section class="alt" id="features">
   <div class="wrap">
     <h2>Features</h2>
-    <p class="intro">You can train on the watch or on the phone, and you manage plans and history on the phone. With a watch, both sync automatically as soon as they are connected.</p>
+    <p class="intro">You can train on the watch or on the phone, and plans, history and statistics live on the phone. With a watch, both sync automatically as soon as they are connected.</p>
     <div class="features">
       <div>
         <h3>On the watch</h3>
@@ -62,6 +62,8 @@
           <li>The rest timer keeps running with the display off, with a warning 10 seconds before the end and a strong vibration</li>
           <li>Per plan: continue automatically, or let the rest keep counting until you tap “Next”</li>
           <li>Add or skip single sets during a workout</li>
+          <li>Warm-up sets are marked as such on the watch</li>
+          <li>A running workout never ends by accident: when you start another plan, you choose between continuing and starting over</li>
           <li>Works at the gym without phone and without internet</li>
         </ul>
       </div>
@@ -71,10 +73,15 @@
           <li>Train without any watch: check off sets on the phone, with rest timer, vibration and countdown in the notification</li>
           <li>Create exercises and workout plans and set their order</li>
           <li>Default sets, weight, reps and rest per exercise, with an overview of the plans it is used in</li>
-          <li>Sets, weight, reps and rest, if you like for each set separately (e.g. pyramid training)</li>
+          <li>Sets, weight, reps and rest, if you like for each set separately (e.g. pyramid training), single sets marked as warm-up</li>
           <li>Optionally, the plan adopts the weights you actually lifted after the workout</li>
+          <li>Add exercises from other plans to a running workout</li>
           <li>Notes on plans and exercises, photos and videos for the correct technique</li>
+          <li>Statistics: workouts, volume, sets and duration per week or month, plus your streak of training weeks</li>
+          <li>Per exercise: progress of weight, estimated 1RM and volume, your records and a note when you set a new one</li>
+          <li>Warm-up sets do not count towards volume and records</li>
           <li>History of all workouts with date and time; correct or delete single sets later, also whole exercises or workouts</li>
+          <li>Continue a workout from the history, also one from the watch, for example when its battery is empty</li>
           <li>Sync with the watch at the push of a button, showing when it last synced</li>
           <li>Backup to a file, share plans with friends, history as CSV for Excel</li>
         </ul>
@@ -83,8 +90,10 @@
 
     <h3 class="gallery-title">Watch screenshots <small style="font-weight:400;color:var(--muted)">(German version)</small></h3>
     <div class="gallery">
-      <figure><a href="../img/uhr-1-satz.png"><div class="shot-watch"><img src="../img/uhr-1-satz.png" alt="Watch: set 1 of 3 bench press, 60 kg × 12, check mark to check off" loading="lazy"></div></a>
+      <figure><a href="../img/uhr-1-satz.png"><div class="shot-watch"><img src="../img/uhr-1-satz.png" alt="Watch: set 2 of 4 bench press, 60 kg × 12, check mark to check off" loading="lazy"></div></a>
         <figcaption>Check off a set with one tap</figcaption></figure>
+      <figure><a href="../img/uhr-5-aufwaermen.png"><div class="shot-watch"><img src="../img/uhr-5-aufwaermen.png" alt="Watch: warm-up 1/4 bench press, 40 kg × 12" loading="lazy"></div></a>
+        <figcaption>Warm-up sets at a glance</figcaption></figure>
       <figure><a href="../img/uhr-2-pause.png"><div class="shot-watch"><img src="../img/uhr-2-pause.png" alt="Watch: running rest timer" loading="lazy"></div></a>
         <figcaption>Rest timer with vibration at the end</figcaption></figure>
       <figure><a href="../img/uhr-3-gewicht.png"><div class="shot-watch"><img src="../img/uhr-3-gewicht.png" alt="Watch: change weight and reps" loading="lazy"></div></a>
@@ -95,17 +104,21 @@
 
     <h3 class="gallery-title">Phone screenshots <small style="font-weight:400;color:var(--muted)">(German version)</small></h3>
     <div class="gallery">
-      <figure><a href="../img/handy-2-satz.png"><div class="shot-phone"><img src="../img/handy-2-satz.png" alt="Phone: set 1 of 3 bench press, 60 kg and 12 reps, button set done" loading="lazy"></div></a>
+      <figure><a href="../img/handy-2-satz.png"><div class="shot-phone"><img src="../img/handy-2-satz.png" alt="Phone: bench press, warm-up, set 1 of 4, 40 kg and 12 reps, button set done" loading="lazy"></div></a>
         <figcaption>Training on the phone, without any watch</figcaption></figure>
       <figure><a href="../img/handy-3-pause.png"><div class="shot-phone"><img src="../img/handy-3-pause.png" alt="Phone: running rest timer with the next set" loading="lazy"></div></a>
         <figcaption>Rest timer on the phone too</figcaption></figure>
-      <figure><a href="../img/handy-1-plan.png"><div class="shot-phone"><img src="../img/handy-1-plan.png" alt="Phone: workout plan with exercises and button start workout" loading="lazy"></div></a>
+      <figure><a href="../img/handy-4-statistik.png"><div class="shot-phone"><img src="../img/handy-4-statistik.png" alt="Phone: statistics with volume, duration, a streak of 8 weeks and volume per week as bars" loading="lazy"></div></a>
+        <figcaption>Statistics per week or month</figcaption></figure>
+      <figure><a href="../img/handy-5-uebung-statistik.png"><div class="shot-phone"><img src="../img/handy-5-uebung-statistik.png" alt="Phone: bench press with weight progress as a line and records" loading="lazy"></div></a>
+        <figcaption>Progress and records per exercise</figcaption></figure>
+      <figure><a href="../img/handy-1-plan.png"><div class="shot-phone"><img src="../img/handy-1-plan.png" alt="Phone: workout plan with exercises, a warm-up set and button start workout" loading="lazy"></div></a>
         <figcaption>Manage workout plans with ease</figcaption></figure>
-      <figure><a href="../img/handy-4-uebungen.png"><div class="shot-phone"><img src="../img/handy-4-uebungen.png" alt="Phone: exercises with default values and the plans they are used in" loading="lazy"></div></a>
+      <figure><a href="../img/handy-6-uebungen.png"><div class="shot-phone"><img src="../img/handy-6-uebungen.png" alt="Phone: exercises with default values and the plans they are used in" loading="lazy"></div></a>
         <figcaption>Exercises with defaults and plans</figcaption></figure>
-      <figure><a href="../img/handy-6-training.png"><div class="shot-phone"><img src="../img/handy-6-training.png" alt="Phone: workout with all sets, weight, reps and time" loading="lazy"></div></a>
+      <figure><a href="../img/handy-8-training.png"><div class="shot-phone"><img src="../img/handy-8-training.png" alt="Phone: workout with all sets, weight, reps and time, first set marked as warm-up" loading="lazy"></div></a>
         <figcaption>Every workout with all its sets</figcaption></figure>
-      <figure><a href="../img/handy-5-verlauf.png"><div class="shot-phone"><img src="../img/handy-5-verlauf.png" alt="Phone: history of workouts" loading="lazy"></div></a>
+      <figure><a href="../img/handy-7-verlauf.png"><div class="shot-phone"><img src="../img/handy-7-verlauf.png" alt="Phone: history of workouts" loading="lazy"></div></a>
         <figcaption>History of all workouts</figcaption></figure>
     </div>
   </div>
