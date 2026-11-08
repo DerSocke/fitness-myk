@@ -1,10 +1,10 @@
 :root {
-  --bg:#ffffff; --bg-alt:#f6f4f2; --text:#1d2330; --muted:#5b6475; --line:#e3e0dc;
-  --accent:#E8642C; --accent-dark:#c84f1b; --link:#c84f1b; --card:#ffffff;
+  --bg:#ffffff; --bg-alt:#f2f6f4; --text:#1d2330; --muted:#5b6475; --line:#dce3e0;
+  --accent:#0E7C66; --accent-dark:#0A5E4D; --link:#0A6E5A; --card:#ffffff;
 }
 @media (prefers-color-scheme: dark) {
   :root { --bg:#14171f; --bg-alt:#1b1f29; --text:#e8eaf0; --muted:#a3aabb; --line:#2c3240;
-          --link:#f29a6e; --card:#1f2430; }
+          --link:#5FD3B5; --card:#1f2430; }
 }
 * { box-sizing:border-box; }
 html { background:var(--bg); }
@@ -14,7 +14,7 @@ a { color:var(--link); }
 .wrap { max-width:64rem; margin:0 auto; padding:0 1.25rem; }
 
 /* Kopf */
-header.hero { background:linear-gradient(135deg, #EE7440 0%, #DC5620 100%); color:#fff; }
+header.hero { background:linear-gradient(135deg, #13896F 0%, #0A6E5A 100%); color:#fff; }
 .hero .wrap { display:grid; grid-template-columns:1.1fr 1fr; gap:2rem; align-items:center;
               padding-top:3rem; padding-bottom:3.5rem; }
 .brand { display:flex; align-items:center; gap:.9rem; margin-bottom:1.25rem; }
