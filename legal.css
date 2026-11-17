@@ -15,3 +15,4 @@ a { color:var(--link); }
 .lang a { text-decoration:none; padding:.15rem .55rem; border-radius:999px; border:1px solid var(--line); }
 .lang a[aria-current] { background:var(--link); border-color:var(--link); color:var(--bg); }
 .note { color:var(--muted); font-size:.95rem; font-style:italic; }
+h3 { font-size:1.02rem; margin:1.4rem 0 .2rem; }
