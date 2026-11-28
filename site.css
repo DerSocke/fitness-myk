@@ -81,6 +81,12 @@ ul.check li::before { content:""; position:absolute; left:0; top:.45em; width:.8
 .video .play { position:absolute; inset:0; display:grid; place-items:center; background:rgba(0,0,0,.35); }
 .video .play svg { width:56px; height:56px; }
 
+.btn-accent { background:var(--accent); color:#fff; }
+.get { display:grid; grid-template-columns:auto 1fr; gap:2rem; align-items:center; }
+.get .qr { display:block; background:#fff; border:1px solid var(--line); border-radius:16px; overflow:hidden; }
+.get .qr img { display:block; width:180px; height:180px; }
+.get .intro { margin-bottom:1rem; }
+
 .cards { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
 .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:1.25rem 1.5rem; }
 .card h3 { margin:0 0 .5rem; font-size:1.1rem; }
@@ -100,6 +106,8 @@ footer nav a { margin-right:1.25rem; }
   .steps { grid-template-columns:1fr 1fr; }
   .features, .cards { grid-template-columns:1fr; }
   .video { grid-template-columns:1fr; justify-items:start; }
+  .get { grid-template-columns:1fr; }
+  .get .qr, .qr-hint { display:none; }
 }
 @media (max-width: 480px) { .steps { grid-template-columns:1fr; } }
 
